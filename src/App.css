@@ -6,10 +6,10 @@
 .imagemDiv{
   background: chartreuse;
   width:400px ;
+  height: 400px;
 
  }
 .contato{
-  
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -28,8 +28,6 @@
 
 .caixasInputs{
   height: 25px;
-
-  
 }
 
 .caixaTexto{

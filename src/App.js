@@ -4,11 +4,11 @@ import "./App.css";
 function App() {
   return (
     <div className="body">
+      <h1 className="tituloContato">Contato</h1>
       <div className="imagemDiv">
         <img src=""></img>
       </div>
       <div className="contato">
-        <h1 className="tituloContato">Contato</h1>
         <div className="caixasDiv">
           <label>Nome</label>
           <input
