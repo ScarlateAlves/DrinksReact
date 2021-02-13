@@ -1,0 +1,11 @@
+.rodape{
+    background:#FFFBEF;
+    height: 40px;
+}
+
+.rodapeTexto{
+    color:#101010;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}

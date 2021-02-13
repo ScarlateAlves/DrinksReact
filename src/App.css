@@ -1,18 +1,23 @@
 .body{
-  /* display: flex;
-  justify-content: space-around; */
+display: flex;
+flex-direction: column;
+background: #FFFDF8;
   }
 
-.imagemDiv{
-  background: chartreuse;
-  width:400px ;
-  height: 400px;
+.corpoDois{
+  display: flex;
+  margin: auto;
+}
 
- }
+.imagemDiv{
+  
+  width: 500px;
+}
 .contato{
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
+ 
 }
 
 .tituloContato{
@@ -27,11 +32,11 @@
 }
 
 .caixasInputs{
-  height: 25px;
+  height: 27px;
 }
 
 .caixaTexto{
-  height: 80px;
+  height: 100px;
   border-radius: 5px;
  
 }
