@@ -1,6 +1,7 @@
-.body{
-display: flex;
-flex-direction: column;
-background: #FFFDF8;
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
 
+.body {
+  background: #fffdf8;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+}

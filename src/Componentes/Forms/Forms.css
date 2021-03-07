@@ -1,0 +1,31 @@
+.form {
+  display: grid;
+  grid-gap: 0.49rem;
+}
+.label {
+  padding-bottom: 0.6rem;
+}
+.caixasDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.caixasInputs {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid pink;
+}
+
+.caixaTexto {
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid pink;
+}
+
+.botao {
+  height: 35px;
+  background: crimson;
+  color: white;
+  border: crimson;
+  border-radius: 5px;
+}

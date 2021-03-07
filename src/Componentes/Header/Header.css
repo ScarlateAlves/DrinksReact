@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+
+.navCabecalho {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 3rem;
+  background: #fffbef;
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nomesCabecalho {
+  font-size: 1.6rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.titulo {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-weight: normal;
+}

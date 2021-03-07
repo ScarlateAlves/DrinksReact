@@ -1,0 +1,21 @@
+.drinks {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 20% 20%;
+  grid-template-rows: 33.33% 33.33% 33.33% 33.33%;
+  grid-gap: 0.2rem;
+  height: calc(100vh - 123px);
+}
+.imgDiv {
+  background: red;
+  height: 82.6vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.h1 {
+  color: aliceblue;
+  text-align: center;
+  font-family: "Bilbo Swash Caps", cursive;
+  font-size: 6rem;
+}

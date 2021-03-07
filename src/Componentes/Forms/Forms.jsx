@@ -1,17 +1,11 @@
 import React, { Component } from 'react'
-import "./PagContato.css"
-export default class PagContato extends Component {
+import "./Forms.css"
+export default class Forms extends Component {
     render() {
         return (
-            <div className="body">
-                 <h1 className="tituloContato">Contato</h1>
-      <div className="corpoDois">
-        <div className="imagemDiv">
-          <img src=""></img>
-        </div>
-        <div className="contato">
+          <div className="form">
           <div className="caixasDiv">
-            <label>Nome</label>
+            <label className="label">Nome</label>
             <input
               type="text"
               className="caixasInputs"
@@ -19,7 +13,7 @@ export default class PagContato extends Component {
             />
           </div>
           <div className="caixasDiv">
-            <label>Email</label>
+            <label  className="label">Email</label>
             <input
               type="email"
               className="caixasInputs"
@@ -27,7 +21,7 @@ export default class PagContato extends Component {
             />
           </div>
           <div className="caixasDiv">
-            <label>Mensagem</label>
+            <label  className="label">Mensagem</label>
             <textarea
               className="caixaTexto"
               placeholder="Deixe sua mensagem"
@@ -39,8 +33,7 @@ export default class PagContato extends Component {
             </button>
           </div>
         </div>
-      </div>
-            </div>
+         
         )
     }
 }
