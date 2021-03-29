@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Forms.css"
+import Button from "../Button/Button";
 export default class Forms extends Component {
     render() {
         return (
@@ -27,11 +28,7 @@ export default class Forms extends Component {
               placeholder="Deixe sua mensagem"
             ></textarea>
           </div>
-          <div className="caixasDiv">
-            <button type="submit" className="botao">
-              Enviar
-            </button>
-          </div>
+             <Button>Enviar</Button>
         </div>
          
         )

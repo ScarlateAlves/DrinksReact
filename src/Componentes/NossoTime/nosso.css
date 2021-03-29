@@ -1,0 +1,26 @@
+.contai{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 80%;
+margin: auto;
+margin-top: 2rem;
+
+
+}
+
+.imagec{
+width: 50%;
+margin-bottom: 1.8rem;
+display: flex;
+gap: 0.5rem;
+
+
+}
+
+.ima{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+   
+}

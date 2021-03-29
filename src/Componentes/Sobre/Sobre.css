@@ -1,0 +1,19 @@
+.corpoDois {
+  display: grid;
+  grid-template-columns: 9% 40% 2% 40% 9%;
+  grid-template-rows: 100%;
+  height: calc(100vh - 209px);
+}
+.s {
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+  }
+.bloco{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.titulo {
+  text-align: center;
+}
